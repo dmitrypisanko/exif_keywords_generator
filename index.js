@@ -1,5 +1,3 @@
-'use strict'
-
 const Clarifai = require('clarifai'),
     fs = require('fs'),
     _ = require('lodash'),
@@ -7,8 +5,8 @@ const Clarifai = require('clarifai'),
     shell = require("shelljs"),
 
     config = {
-        clarifaiClientId: '', 
-        clarifaiSecret: '', 
+        clarifaiClientId: '',
+        clarifaiSecret: '',
         imagesDir: 'files',
         resizedImageWidth: 1000,
         resizedImageQuality: 100,
@@ -84,7 +82,7 @@ let main = async function() {
 
             //save keywords to file
             let cmd = exiftool + ' -m -overwrite_original_in_place -Keywords="' + Object.keys(tags).join(";") + '" "' + file + '"'
-            console.log(file, shell.exec(cmd, {silent: true}).stdout.trim())
+            console.log(file, Object.keys(tags).join(";"), shell.exec(cmd, {silent: true}).stdout.trim())
         }
     } catch (err) {
         console.log('Fatal Error. Something Went Terribly Wrong')
