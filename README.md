@@ -8,7 +8,7 @@ Enter folder with exif_keywords. Use bash in Linux, Terminal in MacOs and cmd.ex
 ```
 $ npm install
 ```
-If you use Windows. This can take a while
+If you use Windows execute following command ( this can take a while and throw some errors )
 ```
 $ npm install --global --production windows-build-tools
 ```
