@@ -12,19 +12,19 @@ $ npm install
 ```
 $ npm install --global --production windows-build-tools
 ```
-4. Register on [clarifai.com](https://clarifai.com)
-5. Open index.js in any text editor and enter required params
- ```
-    config = {
-        clarifaiClientId: '',
-        clarifaiSecret: '',
-        imagesDir: 'files',
-        resizedImageWidth: 1000,
-        resizedImageQuality: 100,
-        minimumPredictPercent: 0.5
-    }
+4. Register on [clarifai.com](https://clarifai.com) and get ClientId and Secret from profile
+5. Open index.js in any text editor and enter change config params
+```
+config = {
+    clarifaiClientId: '',
+    clarifaiSecret: '',
+    imagesDir: 'files',
+    resizedImageWidth: 1000,
+    resizedImageQuality: 100,
+    minimumPredictPercent: 0.5
+}
 ```
 6. We are good to go
- ```
- $ node --harmony index.js
- ```
+```
+$ node --harmony index.js
+```
