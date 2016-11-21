@@ -2,8 +2,9 @@
 Generate keywords using Computer Vison API from Clarifai.com. Use exiftool for update metadata.
 
 ## How to use
-##### Install last stable version of [NodeJS](https://nodejs.org) and npm.
-##### Enter folder with exif_keywords. Use bash in Linux, Terminal in MacOs and cmd.exe in Windows
+Install last stable version of [NodeJS](https://nodejs.org) and npm.
+
+Enter folder with exif_keywords. Use bash in Linux, Terminal in MacOs and cmd.exe in Windows
 ```
 $ npm install
 ```
