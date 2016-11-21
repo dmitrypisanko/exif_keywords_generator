@@ -12,6 +12,7 @@ If you use Windows.
 $ npm install --global --production windows-build-tools
 ```
 Register on [clarifai.com](https://clarifai.com) and get ClientId and Secret from profile.
+
 Open index.js in any text editor and enter change config params.
 ```
 config = {
