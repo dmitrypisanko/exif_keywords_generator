@@ -2,17 +2,17 @@
 Generate keywords using Computer Vison API from Clarifai.com. Use exiftool for update metadata.
 
 ## How to use
-1. Install last stable version of [NodeJS](https://nodejs.org) and npm.
-2. Enter folder with exif_keywords_generator and install dependencies by command. Use bash in Linux, Terminal in MacOs and cmd.exe in Windows
+Install last stable version of [NodeJS](https://nodejs.org) and npm.
+Enter folder with exif_keywords_generator and install dependencies by command. Use bash in Linux, Terminal in MacOs and cmd.exe in Windows
 ```
 $ npm install
 ```
-3. If you use Windows.
+If you use Windows.
 ```
 $ npm install --global --production windows-build-tools
 ```
-4. Register on [clarifai.com](https://clarifai.com) and get ClientId and Secret from profile.
-5. Open index.js in any text editor and enter change config params.
+Register on [clarifai.com](https://clarifai.com) and get ClientId and Secret from profile.
+Open index.js in any text editor and enter change config params.
 ```
 config = {
     clarifaiClientId: '',
@@ -23,7 +23,7 @@ config = {
     minimumPredictPercent: 0.5
 }
 ```
-6. We are good to go.
+We are good to go.
 ```
 $ node --harmony index.js
 ```
