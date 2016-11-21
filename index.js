@@ -1,7 +1,5 @@
 'use strict'
 
-//npm install --global --production windows-build-tools
-
 const Clarifai = require('clarifai'),
     fs = require('fs'),
     _ = require('lodash'),
