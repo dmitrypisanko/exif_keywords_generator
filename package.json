@@ -1,0 +1,18 @@
+{
+  "name": "exif_keywords_generator",
+  "version": "1.0.0",
+  "description": "Utilites analyze EXIF data ( title and description ) to create base keywords. After that, we use computer vision API from Clarifai.com to generate keywords based on objects in images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Pisanko",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.0.16",
+    "lodash": "^4.17.2",
+    "request-promise": "^4.1.1",
+    "sharp": "^0.16.2",
+    "shelljs": "^0.7.5"
+  }
+}
