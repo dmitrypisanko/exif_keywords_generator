@@ -1,5 +1,5 @@
 # exif_keywords_generator
-Generate keywords using Computer Vison API from Clarifai.com. Use exiftool for update metadata.
+Generate keywords using Clarifai.com Computer Vision API. [Еxiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) helps write metadata.
 
 ## How to use
 Install last stable version of [NodeJS](https://nodejs.org) and npm.
