@@ -8,13 +8,13 @@ Enter folder with exif_keywords. Use bash in Linux, Terminal in MacOs and cmd.ex
 ```
 $ npm install
 ```
-##### If you use Windows. This can take a while
+If you use Windows. This can take a while
 ```
 $ npm install --global --production windows-build-tools
 ```
-##### Register on [clarifai.com](https://clarifai.com) and get ClientId and Secret from profile.
+Register on [clarifai.com](https://clarifai.com) and get ClientId and Secret from profile.
 
-##### Open index.js in any text editor and enter change config params.
+Open index.js in any text editor and enter change config params.
 ```
 config = {
     clarifaiClientId: '',
@@ -25,7 +25,7 @@ config = {
     minimumPredictPercent: 0.5
 }
 ```
-##### We are good to go.
+We are good to go.
 ```
 $ node --harmony index.js
 ```
